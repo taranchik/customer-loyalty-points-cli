@@ -37,24 +37,6 @@ Build TypeScript:
 
 npm run build
 
-Usage
-
-Add points:
-
-npm start earn <customerId> <points>
-
-# Example:
-
-npm start earn user123 100
-
-Redeem points:
-
-npm start redeem <customerId> <points>
-
-# Example:
-
-npm start redeem user123 50
-
 Testing
 
 Run all tests:
@@ -72,3 +54,21 @@ Preventing over-redeem
 Low balance warnings
 
 Multiple customers
+
+Usage
+
+Add points:
+
+npm start earn <customerId> <points>
+
+# Example:
+
+npm start earn user123 100
+
+Redeem points:
+
+npm start redeem <customerId> <points>
+
+# Example:
+
+npm start redeem user123 50
